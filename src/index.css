@@ -1,0 +1,34 @@
+:root{
+  --body_background: white;
+  /* --body_secondary_background: #FFDD0F; */
+  --secondary_font_color: #585858;
+
+  --body_font_color: black;
+  --body_color: black;
+  --primary_color: blue;
+}
+[data-theme="dark"] {
+  --body_background: black;
+  --body_font_color: white;
+  --secondary_font_color: #c6c6c6;
+  
+
+  --body_color: rgb(143, 198, 15);
+  --primary_color: rgb(10, 188, 211);
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins' !important;
+  background-color: var(--body_background);
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', */
+    /* 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', */
+    /* sans-serif; */
+  /* -webkit-font-smoothing: antialiased; */
+  /* -moz-osx-font-smoothing: grayscale; */
+}
+
+code {
+  font-family: 'Poppins' !important;
+
+}
